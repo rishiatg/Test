@@ -1,0 +1,14 @@
+com\sponso\repo\StudentRepo.class
+com\sponso\Model\LoginModel.class
+com\sponso\Service\StudentService.class
+com\sponso\Service\StudentServiceImpl.class
+com\sponso\Pojo\Student.class
+com\sponso\repo\SponserRepo.class
+com\sponso\Service\SponserService.class
+com\sponso\Controller\StudentController.class
+com\sponso\SponsoMento\DatabaseConfig.class
+com\sponso\SponsoMento\SponsoMentoApplication.class
+com\sponso\swagger\SwaggerConfig.class
+com\sponso\Service\SpronserServiceImpl.class
+com\sponso\Controller\SponserController.class
+com\sponso\Pojo\Sponser.class

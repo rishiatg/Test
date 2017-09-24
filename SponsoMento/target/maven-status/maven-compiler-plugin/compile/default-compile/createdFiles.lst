@@ -2,6 +2,8 @@ com\sponso\repo\StudentRepo.class
 com\sponso\Model\LoginModel.class
 com\sponso\Service\StudentService.class
 com\sponso\Service\StudentServiceImpl.class
+com\sponso\Pojo\Event.class
+com\sponso\Pojo\MentorLink.class
 com\sponso\Pojo\Student.class
 com\sponso\repo\SponserRepo.class
 com\sponso\Service\SponserService.class
@@ -10,5 +12,8 @@ com\sponso\SponsoMento\DatabaseConfig.class
 com\sponso\SponsoMento\SponsoMentoApplication.class
 com\sponso\swagger\SwaggerConfig.class
 com\sponso\Service\SpronserServiceImpl.class
+com\sponso\repo\SponserLinkRepo.class
+com\sponso\Pojo\SponserLink.class
 com\sponso\Controller\SponserController.class
 com\sponso\Pojo\Sponser.class
+com\sponso\repo\MentorLinkRepo.class

@@ -34,7 +34,7 @@ public class StudentController {
 	@SuppressWarnings({ "rawtypes" })
 	@CrossOrigin
 	@RequestMapping(value = "/student/save", method = RequestMethod.POST, produces = "application/json")
-	@ApiOperation(value = "Saving Sponser", notes = "", response = Sponser.class)
+	@ApiOperation(value = "Saving Sponser", notes = "", response = Student.class)
     @ApiResponses(value = { @ApiResponse(code = 201, message = "valid user"),
     @ApiResponse(code = 404, message = "un-authorized user") })
 	@ResponseBody
@@ -106,6 +106,7 @@ public class StudentController {
 	
 		Student s = stservice.getbyid(st.getId());
 		s.setFund_needed(st.getFund_needed());
+		s.setFund_collected(st.getFund_collected());
 		s.setSkill(st.getSkill());
 		String str = stservice.save(s);
 		if(str=="success") 

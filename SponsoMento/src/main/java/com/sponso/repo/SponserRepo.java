@@ -11,7 +11,7 @@ import com.sponso.Pojo.Sponser;
 public interface SponserRepo extends CrudRepository<Sponser, Integer>{
 
 	public Sponser findById(int id);
-	
+
 	@Query("SELECT s FROM Sponser s WHERE LOWER(s.email) = LOWER(:email) and s.password =:password")
 	public Sponser findbyemail(@Param("email")String email,@Param("password")String password);
 }
